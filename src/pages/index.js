@@ -1,13 +1,15 @@
 import * as React from "react";
-import {Link} from "gatsby";
 import Layout from '../components/layout';
+import CallToAction from '../components/callToAction'
 
 // markup
 const IndexPage = () => {
   return (
     <Layout pageTitle='Home Page'>
-    Welcome to the Verbose Reader blog!
+    <h2>Welcome to the Verbose Reader blog!</h2>
+    <CallToAction></CallToAction>
     </Layout>
+    
   )
 }
 

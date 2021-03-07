@@ -1,0 +1,20 @@
+.subscribeBtn{
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1em;
+    background-color: orange;
+    border-color: orangered;
+    border-width: 1px;
+    box-shadow: orangered;
+    text-shadow: 2px 2px orange;
+    color: white;
+}
+
+.subscribeBtn:hover{
+    box-shadow: 0 0 1px orange ;
+    background-color: orangered;
+    border-color: orange;
+    transform: perspective(1px) translateZ(0);
+    text-shadow: 2px 2px #ff0000;
+
+}
